@@ -9,45 +9,124 @@
     h1, h2 { color: #92400e; }
     hr { border: none; border-top: 1px solid #e2e8f0; margin: 2rem 0; }
     a { color: #92400e; }
+    ul { padding-left: 1.25rem; }
   </style>
 </head>
 <body>
   <h1>MobileQuest Privacy Policy</h1>
-  <p><em>Last updated: 2026-06-25</em></p>
+  <p><em>Last updated: 2026-06-27</em></p>
 
-  <p>MobileQuest is a privacy-first, local-first app. Your entries, moods, sparks, and achievements live <strong>on your device</strong>. We do not operate servers that receive your content, we do not use analytics or advertising SDKs, and we do not track you across apps or websites.</p>
+  <p>MobileQuest is a privacy-first, local-first app. Your journal entries, moods, sparks, and achievements live <strong>on your device</strong> by default. We do not operate servers that receive your content, we do not use analytics or advertising SDKs, and we do not track you across apps or websites.</p>
 
-  <h2>What the app stores</h2>
+  <h2>What the app stores (on your device)</h2>
   <ul>
-    <li><strong>Manual entries</strong> — journal, mood, and spark notes (SwiftData, on-device).</li>
-    <li><strong>Health (optional)</strong> — read-only metrics for movement badges; never uploaded by us.</li>
-    <li><strong>Screen Time (optional)</strong> — on-device reduction % only; never uploaded by us.</li>
+    <li><strong>Manual entries</strong> — journal lines, mood check-ins, and spark notes you type. Stored locally with SwiftData.</li>
+    <li><strong>Badge progress</strong> — tiers earned, sets completed, and custom badges you create. Stored locally.</li>
   </ul>
 
+  <h2>Health data (optional)</h2>
+  <p>If you enable <strong>Health</strong> in Settings, MobileQuest <strong>reads only</strong> the following from Apple Health, for the last 7 days, to award movement and wellness badges:</p>
+  <ul>
+    <li>Step count</li>
+    <li>Walking and running distance</li>
+    <li>Active energy burned</li>
+    <li>Exercise minutes (Apple Exercise Time)</li>
+    <li>Flights climbed</li>
+    <li>Mindful minutes</li>
+    <li>Sleep analysis (asleep duration)</li>
+    <li>Workout sessions (count)</li>
+  </ul>
+  <p>This data is processed on your device only. MobileQuest <strong>never writes</strong> to Health, <strong>never uploads</strong> health data to us, and <strong>never uses</strong> health data for advertising or marketing. You can revoke Health access at any time in iOS Settings.</p>
+
+  <h2>Screen Time (optional)</h2>
+  <p>If you enable <strong>Screen Time</strong> in Settings, a DeviceActivityReport extension running on your device computes a single weekly <strong>reduction percentage</strong>. Only that percentage is shared with the main app through a private App Group. Raw app-usage data stays within Apple&rsquo;s on-device Screen Time framework and is never sent to us. You can revoke authorization in iOS Settings at any time.</p>
+
+  <h2>Journaling Suggestions (optional)</h2>
+  <p>On supported devices (iOS 17.2+), you may open Apple&rsquo;s Journaling Suggestions picker from the Today screen. <strong>Nothing is saved unless you actively choose a suggestion.</strong> MobileQuest does not automatically import your journal or photos.</p>
+
+  <h2>Notifications (optional)</h2>
+  <p>If you enable reminders or milestone alerts in Settings, notifications are scheduled <strong>locally on your device</strong> only. We do not use remote push notifications and notification content never leaves your device through us.</p>
+
   <h2>iCloud sync (optional, off by default)</h2>
-  <p>If enabled, data syncs through your private iCloud (CloudKit). We have no access.</p>
+  <p>If you turn on <strong>iCloud Sync</strong>, your entries sync through your own private iCloud account (Apple CloudKit private database), tied to your Apple ID. <strong>We have no access</strong> to this data. You can turn sync off at any time. Apple&rsquo;s handling of iCloud is governed by <a href="https://www.apple.com/legal/privacy/">Apple&rsquo;s Privacy Policy</a>.</p>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>No third-party analytics, advertising, or tracking SDKs</li>
+    <li>No collection of your content on any server we control</li>
+    <li>No selling or sharing of personal data</li>
+    <li>No account, sign-up, or email required to use the app</li>
+  </ul>
+
+  <h2>Data deletion</h2>
+  <p>Because data lives on your device (and, if enabled, in your private iCloud), <strong>deleting the app</strong> removes its on-device data. To remove iCloud-synced data, turn off iCloud Sync in the app and manage the app&rsquo;s iCloud storage in iOS Settings. Revoking Health or Screen Time permissions stops new reads immediately.</p>
+
+  <h2>Children&rsquo;s privacy</h2>
+  <p>MobileQuest is not directed at children under 13. We do not knowingly collect personal information from children and do not transmit user content off-device to us.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>We may update this page when the app&rsquo;s data practices change. The &ldquo;Last updated&rdquo; date above will reflect the latest revision. Continued use after an update means you accept the revised policy.</p>
 
   <h2>Contact</h2>
-  <p>Questions: <a href="https://github.com/rans0mban/MobileQuest/issues">GitHub Issues</a></p>
+  <p>Privacy questions and requests: <a href="https://github.com/rans0mban/MobileQuest/issues">GitHub Issues</a> (official support channel; please allow a few business days for a response).</p>
 
   <hr>
 
   <h1>MobileQuest 隐私政策</h1>
-  <p><em>最后更新：2026 年 6 月 25 日</em></p>
+  <p><em>最后更新：2026 年 6 月 27 日</em></p>
 
-  <p>MobileQuest 是一款隐私优先、本地优先的应用。你的记录与成就保存在<strong>你的设备上</strong>。我们不运营接收你内容的服务器，不使用分析或广告 SDK，也不会跨应用追踪你。</p>
+  <p>MobileQuest 是一款隐私优先、本地优先的应用。你的日记、心情、灵感与成就默认保存在<strong>你的设备上</strong>。我们不运营接收你内容的服务器，不使用分析或广告 SDK，也不会跨应用或网站追踪你。</p>
 
-  <h2>应用存储什么</h2>
+  <h2>应用在本机存储什么</h2>
   <ul>
-    <li><strong>手动记录</strong> —— 日记、心情、灵感（SwiftData，设备本地）。</li>
-    <li><strong>健康数据（可选）</strong> —— 只读，用于运动徽章，不会经由我们上传。</li>
-    <li><strong>屏幕使用时间（可选）</strong> —— 仅设备端计算的百分比，不会经由我们上传。</li>
+    <li><strong>手动记录</strong> —— 你输入的日记、心情与灵感（SwiftData，设备本地）。</li>
+    <li><strong>徽章进度</strong> —— 已获得的等级、套装与自定徽章（设备本地）。</li>
   </ul>
 
+  <h2>健康数据（可选）</h2>
+  <p>若在设置中开启<strong>健康</strong>，MobileQuest 为颁发运动与健康类徽章，<strong>仅只读</strong>最近 7 天的以下数据：</p>
+  <ul>
+    <li>步数</li>
+    <li>步行和跑步距离</li>
+    <li>活动能量</li>
+    <li>运动分钟数（Apple 运动时间）</li>
+    <li>爬楼层数</li>
+    <li>正念分钟</li>
+    <li>睡眠分析（入睡时长）</li>
+    <li>健身记录（次数）</li>
+  </ul>
+  <p>数据仅在本机处理。MobileQuest <strong>不会写入</strong>健康 App，<strong>不会</strong>将健康数据上传给我们，也<strong>不会</strong>将健康数据用于广告或营销。你可随时在 iOS 设置中撤销健康权限。</p>
+
+  <h2>屏幕使用时间（可选）</h2>
+  <p>若在设置中开启<strong>屏幕使用时间</strong>，设备端的 DeviceActivityReport 扩展会计算每周<strong>降低百分比</strong>。仅该百分比通过私有 App Group 与主应用共享；原始使用数据保留在 Apple 本机框架内，不会发送给我们。你可随时在 iOS 设置中撤销授权。</p>
+
+  <h2>日记建议（可选）</h2>
+  <p>在支持的设备上（iOS 17.2+），你可从「今日」页打开 Apple 的日记建议选择器。<strong>仅在你主动选择某条建议时才会保存内容</strong>。MobileQuest 不会自动导入你的日记或照片。</p>
+
+  <h2>通知（可选）</h2>
+  <p>若在设置中开启提醒或里程碑通知，通知<strong>完全在本机排程</strong>。我们不使用远程推送，通知内容不会经由我们离开你的设备。</p>
+
   <h2>iCloud 同步（可选，默认关闭）</h2>
-  <p>开启后通过你的私有 iCloud（CloudKit）同步，我们无法访问。</p>
+  <p>开启<strong>iCloud 同步</strong>后，记录通过你的私有 iCloud（CloudKit 私有数据库）在多设备间同步，绑定你的 Apple ID。<strong>我们无法访问</strong>这些数据。你可随时关闭。iCloud 的处理受 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>约束。</p>
+
+  <h2>我们不做什么</h2>
+  <ul>
+    <li>不使用第三方分析、广告或追踪 SDK</li>
+    <li>不在我们控制的服务器上收集你的内容</li>
+    <li>不出售或共享个人数据</li>
+    <li>使用应用无需账号、注册或邮箱</li>
+  </ul>
+
+  <h2>数据删除</h2>
+  <p>数据保存在本机（及可选的私有 iCloud）上，<strong>删除应用</strong>可移除本机数据。要清理 iCloud 中的数据，请在应用内关闭 iCloud 同步，并在 iOS 设置的 iCloud 存储管理中处理。撤销健康或屏幕时间权限可立即停止新的读取。</p>
+
+  <h2>儿童隐私</h2>
+  <p>MobileQuest 不面向 13 岁以下儿童。我们不会有意收集儿童个人信息，也不会将用户内容传出设备给我们。</p>
+
+  <h2>政策变更</h2>
+  <p>当应用数据处理方式变化时，我们可能更新本页。文首「最后更新」日期会随之修订。继续使用即表示你接受更新后的政策。</p>
 
   <h2>联系</h2>
-  <p>问题反馈：<a href="https://github.com/rans0mban/MobileQuest/issues">GitHub Issues</a></p>
+  <p>隐私相关问题与请求：<a href="https://github.com/rans0mban/MobileQuest/issues">GitHub Issues</a>（官方支持渠道，通常数个工作日内回复）。</p>
 </body>
 </html>
